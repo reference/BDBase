@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BDBase
 
 [![CI Status](https://img.shields.io/travis/reference/BDBase.svg?style=flat)](https://travis-ci.org/reference/BDBase)
@@ -27,3 +28,6 @@ reference, scottban@126.com
 ## License
 
 BDBase is available under the MIT license. See the LICENSE file for more info.
+=======
+# BDBase
+>>>>>>> 956a40e8d36bc34501007c892a578d8ad294fdde
