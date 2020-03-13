@@ -30,7 +30,6 @@ SOFTWARE.
 #import "UIViewController+HUD.h"
 #import "UITableViewController+HUD.h"
 #import "UICollectionViewController+HUD.h"
-#import "BDScanController.h"
 #import "BDBaseViewModel.h"
 #import "BDBaseAppDelegate.h"
 #import "BDBaseTabBarController.h"
