@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDBase'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'A short description of BDBase.'
 
 # This description is used to generate tags and improve search results.
@@ -41,11 +41,11 @@ Pod::Spec.new do |s|
   s.source_files  = "BDBase/Classes/BDBase.h"
   s.public_header_files = "BDBase/Classes/BDBase.h"
   
-  s.dependency "BDToolKit"
-  s.dependency "ZXToolbox"
-  s.dependency "FFToast"
-  s.dependency "MJRefresh"
-  s.dependency "DZNEmptyDataSet"
+#  s.dependency "BDToolKit"
+#  s.dependency "ZXToolbox"
+#  s.dependency "FFToast"
+#  s.dependency "MJRefresh"
+#  s.dependency "DZNEmptyDataSet"
   
   s.subspec "BDBaseDefine" do |ss|
       ss.source_files  = "BDBase/Classes/BDBaseDefine/*.{h,m}"
