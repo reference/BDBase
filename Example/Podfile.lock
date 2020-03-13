@@ -1,0 +1,16 @@
+PODS:
+  - BDBase (0.1.0)
+
+DEPENDENCIES:
+  - BDBase (from `../`)
+
+EXTERNAL SOURCES:
+  BDBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BDBase: e8d9fab18b2a9f72b4fa857f137b311c1547a955
+
+PODFILE CHECKSUM: db02a0733d6a36be2c592cba42c2408cf50ef3d9
+
+COCOAPODS: 1.9.0
