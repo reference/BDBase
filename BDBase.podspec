@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDBase'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A short description of BDBase.'
 
 # This description is used to generate tags and improve search results.
@@ -58,74 +58,74 @@ Pod::Spec.new do |s|
       ss.public_header_files = "BDBase/Classes/BDBaseViewController/*.h"
   end
   
-  s.subspec "BDBaseAppDelegate" do |ss|
-      ss.dependency 'BDBaseDefine'
-      ss.dependency 'ZXToolbox'
-      ss.source_files  = "BDBase/Classes/BDBaseAppDelegate/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDBaseAppDelegate/*.h"
-  end
-  
-  s.subspec "BDTabBar" do |ss|
-      ss.dependency 'ZXToolbox'
-      ss.source_files  = "BDBase/Classes/BDTabBar/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDTabBar/*.h"
-  end
-  
-  s.subspec "BDBaseTabBarController" do |ss|
-      ss.dependency 'BDBaseDefine'
-      ss.dependency 'ZXToolbox'
-      ss.source_files  = "BDBase/Classes/BDBaseTabBarController/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDBaseTabBarController/*.h"
-  end
-  
-  s.subspec "BDHTTP" do |ss|
-      ss.dependency "AFNetworking"
-      ss.dependency "YYModel"
-      ss.source_files  = "BDBase/Classes/BDHTTP/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDHTTP/*.h"
-  end
-  
-  s.subspec "BDBaseTableViewController" do |ss|
-      ss.dependency 'BDBaseDefine'
-      ss.source_files  = "BDBase/Classes/BDBaseTableViewController/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDBaseTableViewController/*.h"
-  end
-
-  s.subspec "BDBaseCollectionViewController" do |ss|
-      ss.dependency 'BDBaseDefine'
-      ss.source_files  = "BDBase/Classes/BDBaseCollectionViewController/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDBaseCollectionViewController/*.h"
-  end
-
-  s.subspec "BDBaseViewModel" do |ss|
-      ss.dependency 'ReactiveObjC'
-      ss.source_files  = "BDBase/Classes/BDBaseViewModel/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDBaseViewModel/*.h"
-  end
-
-  s.subspec "BDWebViewController" do |ss|
-      ss.dependency 'BDBaseViewController'
-      ss.source_files  = "BDBase/Classes/BDWebViewController/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/BDWebViewController/*.h"
-  end
-
-  s.subspec "UITableView+Refresh" do |ss|
-      ss.source_files  = "BDBase/Classes/Category/UITableView+Refresh/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/Category/UITableView+Refresh/*.h"
-  end
-
-  s.subspec "UIViewController+HUD" do |ss|
-      ss.source_files  = "BDBase/Classes/Category/UIViewController+HUD/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/Category/UIViewController+HUD/*.h"
-  end
-
-  s.subspec "UITableViewController+HUD" do |ss|
-      ss.source_files  = "BDBase/Classes/Category/UITableViewController+HUD/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/Category/UITableViewController+HUD/*.h"
-  end
-
-  s.subspec "UICollectionViewController+HUD" do |ss|
-      ss.source_files  = "BDBase/Classes/Category/UICollectionViewController+HUD/*.{h,m}"
-      ss.public_header_files = "BDBase/Classes/Category/UICollectionViewController+HUD/*.h"
-  end
+#  s.subspec "BDBaseAppDelegate" do |ss|
+#      ss.dependency 'BDBaseDefine'
+#      ss.dependency 'ZXToolbox'
+#      ss.source_files  = "BDBase/Classes/BDBaseAppDelegate/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDBaseAppDelegate/*.h"
+#  end
+#
+#  s.subspec "BDTabBar" do |ss|
+#      ss.dependency 'ZXToolbox'
+#      ss.source_files  = "BDBase/Classes/BDTabBar/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDTabBar/*.h"
+#  end
+#
+#  s.subspec "BDBaseTabBarController" do |ss|
+#      ss.dependency 'BDBaseDefine'
+#      ss.dependency 'ZXToolbox'
+#      ss.source_files  = "BDBase/Classes/BDBaseTabBarController/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDBaseTabBarController/*.h"
+#  end
+#
+#  s.subspec "BDHTTP" do |ss|
+#      ss.dependency "AFNetworking"
+#      ss.dependency "YYModel"
+#      ss.source_files  = "BDBase/Classes/BDHTTP/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDHTTP/*.h"
+#  end
+#
+#  s.subspec "BDBaseTableViewController" do |ss|
+#      ss.dependency 'BDBaseDefine'
+#      ss.source_files  = "BDBase/Classes/BDBaseTableViewController/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDBaseTableViewController/*.h"
+#  end
+#
+#  s.subspec "BDBaseCollectionViewController" do |ss|
+#      ss.dependency 'BDBaseDefine'
+#      ss.source_files  = "BDBase/Classes/BDBaseCollectionViewController/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDBaseCollectionViewController/*.h"
+#  end
+#
+#  s.subspec "BDBaseViewModel" do |ss|
+#      ss.dependency 'ReactiveObjC'
+#      ss.source_files  = "BDBase/Classes/BDBaseViewModel/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDBaseViewModel/*.h"
+#  end
+#
+#  s.subspec "BDWebViewController" do |ss|
+#      ss.dependency 'BDBaseViewController'
+#      ss.source_files  = "BDBase/Classes/BDWebViewController/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/BDWebViewController/*.h"
+#  end
+#
+#  s.subspec "UITableView+Refresh" do |ss|
+#      ss.source_files  = "BDBase/Classes/Category/UITableView+Refresh/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/Category/UITableView+Refresh/*.h"
+#  end
+#
+#  s.subspec "UIViewController+HUD" do |ss|
+#      ss.source_files  = "BDBase/Classes/Category/UIViewController+HUD/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/Category/UIViewController+HUD/*.h"
+#  end
+#
+#  s.subspec "UITableViewController+HUD" do |ss|
+#      ss.source_files  = "BDBase/Classes/Category/UITableViewController+HUD/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/Category/UITableViewController+HUD/*.h"
+#  end
+#
+#  s.subspec "UICollectionViewController+HUD" do |ss|
+#      ss.source_files  = "BDBase/Classes/Category/UICollectionViewController+HUD/*.{h,m}"
+#      ss.public_header_files = "BDBase/Classes/Category/UICollectionViewController+HUD/*.h"
+#  end
 end
